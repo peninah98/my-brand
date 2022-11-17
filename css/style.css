@@ -330,3 +330,28 @@ color: black;
     background-color: #715f69;
 }
 
+#icon li{
+      display: flex;
+      text-align: center;
+
+}
+
+#icon{
+    width: 800px;
+    text-align: center;
+}
+
+#body{
+    background-color: #715f69;
+}
+
+#loginpage p{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#loginpage{
+    text-align: center;
+
+}
