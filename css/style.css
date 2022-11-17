@@ -1,0 +1,332 @@
+button{
+    width: 143px;
+    background-color: #F46464;
+    border-radius: 50PX;
+    height: 46px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 40px 0px 0px 20px;
+    border-style: none;
+    
+    
+   
+}
+
+
+.image{
+    width: 30%;
+    
+    background-color: #715f69;
+    
+
+}
+
+.image img{
+    width: 80%;
+    height: 100%;
+}
+
+.nav{
+    width: 70%;
+   
+    padding: 30px 20px;
+    padding: 5px 0px;
+    text-align: left;
+    
+}
+
+.p{
+    width: 100%;
+    height: 100%;
+    color: black;
+    border: 3px solid #F46464;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 20px;
+    
+}
+.container{
+     width: 100%;
+     height: 100%;
+     max-width: calc(100%-20);
+     margin: 2px;
+     text-align: right;
+     display: flex;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+   
+}
+
+ li a{
+    
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+   
+}
+.active{
+    color: #F46464;
+}
+li{
+    display: block;
+    float: left;
+    margin-left: 3px;
+    padding: 10px 10px;
+
+ 
+}
+
+li a:hover{
+    color: #F46464;
+    font-weight: 200px;
+    
+}
+
+.me-message{
+    margin-right: 20px;
+    
+
+
+}
+.ngizwenayo{
+    margin:80px 20px 0px 10px;
+    font-size: 30px;
+    padding-bottom: 10px
+}
+
+.web{
+    margin:0px 20px 0px 10px; 
+    font-size:26px;
+    padding-bottom: 70px;
+}
+
+/*aboutpage ----------------------------------------------------------*/
+
+
+
+#aboutus{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    height: 90px;
+
+}
+
+#aboutus ul{
+    display: flex;
+}
+
+#homeabout button{
+    font-size: 20px;
+    padding: 10px 18px;
+    font-family: sans-serif;
+    height: 48px;
+    width: 200px;
+
+}
+
+#homeabout a{
+    color: white;
+    text-decoration: none;
+}
+
+#homeabout{
+    height: 48px;
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+
+#about_nav{
+    height: 450px;
+    margin: 0px -15px;
+    background-color: #715f69;
+    color: white;
+}
+
+#about_nav a{
+    color: white;
+    text-align: right;
+
+}
+
+.pp{
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: 3px solid #F46464;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+#about_image{
+    border: 10px solid #58B6Eb;
+    height: 500px;
+    margin-top: 100px;
+    
+}
+
+#about-image img{
+    width: 100%;
+    height: 100%;
+}
+
+#about-des{
+    display: flex;
+}
+
+#description{
+    padding: 100px;
+    width: 50%;
+   
+    margin: 100px;
+    padding: 20px;
+}
+
+#description h1{
+    font-size: 50px;
+}
+#description button{
+    text-align: center;
+}
+
+#description p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#buttons{
+  
+  
+  text-align: center;
+
+}
+#more{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+#resume{
+    background-color: #F46464;
+    color: white;
+    cursor: pointer;
+}
+
+#about_contact{
+    background-color: #F46464;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding-bottom: 100px;
+}
+
+#about-contact h1 p{
+text-align: center;
+color: black;
+
+}
+
+#about-contact p{
+    text-align: center;
+    color: black;
+
+}
+
+/*_______________________________portifolio____________________________________*/
+
+#cards{
+    display: flex;
+    
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+#cards h1{
+    font-size: 20px;
+    
+}
+
+
+
+#one{
+   background-color: rgb(7, 22, 90);
+   width: 100px;
+   height: 100px;
+   cursor: pointer;
+   padding: 50px;
+   margin-left: 40px;
+}
+
+#two{
+    background-color:#F46464;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 50px;
+    margin-left: 40px;
+    
+}
+
+#three{
+    background-color:peru;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 50px;
+    margin-left: 40px;
+   
+}
+
+#four{
+    background-color: darkgreen;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 50px;
+    margin-left: 40px;
+    
+}
+
+#five{
+    background-color: rgb(94, 69, 8);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 50px;
+    margin-left: 40px;
+   
+}
+
+#five:hover{
+    background-color: #715f69;
+}
+
+#two:hover{
+    background-color: #715f69;
+}
+#one:hover{
+    background-color: #715f69;
+}
+#three:hover{
+    background-color: #715f69;
+}
+#four:hover{
+    background-color: #715f69;
+}
+
