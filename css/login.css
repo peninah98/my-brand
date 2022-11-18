@@ -75,9 +75,12 @@ body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  min-height: 100%;
 }
 .navbar{
     height: 50px;
+
 }
 
 li{
@@ -85,6 +88,7 @@ li{
     padding: 40px;
     color:white;
     text-decoration: none;
+    max-width: 100%;
 }
 
 li a{
@@ -92,38 +96,266 @@ li a{
     text-decoration: none;
 }
 
-.pp{
-    width: 50px;
-    height: 50px;
-    
-    color: white;
-    border: 3px solid #F46464;
-    text-align: center;
-    justify-content: center;
-    font-size: 30px;
-    margin-right: 20px;
-    cursor: pointer;
-    
+li a:hover{
+  font:bold;
+  color:#f53232;
 }
+
+
+.login-page {
+  font-weight: 900px;
+}
+
+#container{
+  text-align: center;
+}
+
+.form_contact{
+  padding: 20px;
+}
+
+
 .home{
-    height: 48px;
-    margin: 10px 0px 0px;
-    text-align: center;
-    width: 400px;
-    cursor: pointer;
-    background-color: none;
-    
-    
-}
-
-.home a{
-    text-decoration: none;
-    text-align: center;
+  justify-content: center;
+  display: flex;
 
 }
 
-.home button{
-    text-align: center;
-    text-decoration: none;
+.logbtn{
+  text-align:center;
+  height: 48px;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-size:24px ;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 50px;
+top: 100px;
+  
+}
+
+.logbtn a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+
+.hlogin{
+  color: white;
+  text-align: center;
+}
+
+footer{
+  margin-top: auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  bottom: 0; 
+  border-top: 2px solid gray;
+  
+}
+
+footer h1{
+  font-weight: bolder;
+}
+html{
+  height: 100%;
 
 }
+
+.test svg{
+  fill: black;
+  padding-left:20px;
+  text-align: center;
+
+}
+
+.copyright{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+
+/* ________________________________blog___________________________*/
+
+
+.blog{
+  text-align: center;
+  padding: 60px;
+}
+
+.blog_card{
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  background-image: url(/Assets/social.webp);
+  width: 200px;
+}
+  
+
+
+.blog_text{
+    background-color:rgba(0, 0, 0, 1.0);
+    position:absolute;
+    top: o;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.blog_text h2{
+  font-size: 26px;
+  text-transform: uppercase;
+font-weight: bold;
+margin-top: 2px;
+}
+.blog_body{
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+}
+.skill-card img{
+  height: 300px;
+  
+
+}
+
+.skill{
+  display:flex;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*++++++++++++++++++++++++++++++++ contact form ++++++++++++++++++++++++++*/
+
+.form_contact{
+
+  text-align: left;
+  columns: black;
+}
+.contact_btn {
+  text-align:center;
+  height: 48px;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-size:24px ;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 50px;
+top: 100px; ;
+}
+
+.contact_btn a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact{
+  justify-content: center;
+  display: flex;
+  background-color: none;
+  padding: 60px;
+}
+
+.form-group input[type=text]{
+  width: 400px;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+ 
+}
+
+
+
+.form-group input[type=submit]{
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #f53232;
+  border: none;
+  padding: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.form-group input[type=submit]:hover{
+background-color:#715f69;
+color: white;
+border: 2px solid white;
+font-size: 20px;
+}
+
+.form-group input[type=text-area]{
+  width: 400px;
+  height: 200px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: center;
+}
+
+
+
+.contact-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name{
+  padding-bottom: 60px;
+  background-color: #b3b3b3;
+  width: 30%;
+  border-radius: 5px;
+  margin: 10px;
+  height: 350px;
+  padding: 30px;
+  bottom: 20px;
+}
+
+.name p{
+  padding: 20px ;
+
+}
+
+.name h1{
+  padding: 20px  ;
+  height: 20px;
+}
+
+
+
+
+

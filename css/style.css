@@ -248,6 +248,10 @@ color: black;
 
 }
 
+#icon li svg{
+    text-align: center;
+}
+
 /*_______________________________portifolio____________________________________*/
 
 #cards{
@@ -355,3 +359,40 @@ color: black;
     text-align: center;
 
 }
+
+footer{
+    margin-top: auto;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0; 
+    border-top: 2px solid gray;
+    padding-top: 100px;
+    margin-top: 100px;
+    
+  }
+  
+  footer h1{
+    font-weight: bolder;
+  }
+  html{
+    height: 100%;
+  
+  }
+  
+  .test svg{
+    fill: black;
+    padding-left:20px;
+    text-align: center;
+  
+  }
+  
+  .copyright{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 0px;
+  }
+    
