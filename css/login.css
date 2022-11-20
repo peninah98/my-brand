@@ -1,0 +1,361 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+header .header{
+  background-color: #fff;
+  height: 45px;
+}
+header a img{
+  width: 134px;
+margin-top: 4px;
+}
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #715f69;
+  background-image: linear-gradient(45deg,#328f8a,#715f69);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #715f69;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #715f69;
+  
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  min-height: 100%;
+}
+.navbar{
+    height: 50px;
+
+}
+
+li{
+    display: inline;
+    padding: 40px;
+    color:white;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+}
+
+li a:hover{
+  font:bold;
+  color:#f53232;
+}
+
+
+.login-page {
+  font-weight: 900px;
+}
+
+#container{
+  text-align: center;
+}
+
+.form_contact{
+  padding: 20px;
+}
+
+
+.home{
+  justify-content: center;
+  display: flex;
+
+}
+
+.logbtn{
+  text-align:center;
+  height: 48px;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-size:24px ;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 50px;
+top: 100px;
+  
+}
+
+.logbtn a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+
+.hlogin{
+  color: white;
+  text-align: center;
+}
+
+footer{
+  margin-top: auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  bottom: 0; 
+  border-top: 2px solid gray;
+  
+}
+
+footer h1{
+  font-weight: bolder;
+}
+html{
+  height: 100%;
+
+}
+
+.test svg{
+  fill: black;
+  padding-left:20px;
+  text-align: center;
+
+}
+
+.copyright{
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+
+/* ________________________________blog___________________________*/
+
+
+.blog{
+  text-align: center;
+  padding: 60px;
+}
+
+.blog_card{
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  background-image: url(/Assets/social.webp);
+  width: 200px;
+}
+  
+
+
+.blog_text{
+    background-color:rgba(0, 0, 0, 1.0);
+    position:absolute;
+    top: o;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.blog_text h2{
+  font-size: 26px;
+  text-transform: uppercase;
+font-weight: bold;
+margin-top: 2px;
+}
+.blog_body{
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  max-width: 100%;
+}
+.skill-card img{
+  height: 300px;
+  
+
+}
+
+.skill{
+  display:flex;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*++++++++++++++++++++++++++++++++ contact form ++++++++++++++++++++++++++*/
+
+.form_contact{
+
+  text-align: left;
+  columns: black;
+}
+.contact_btn {
+  text-align:center;
+  height: 48px;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  font-size:24px ;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 50px;
+top: 100px; ;
+}
+
+.contact_btn a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contact{
+  justify-content: center;
+  display: flex;
+  background-color: none;
+  padding: 60px;
+}
+
+.form-group input[type=text]{
+  width: 400px;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 16px;
+ 
+}
+
+
+
+.form-group input[type=submit]{
+  width: 200px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #f53232;
+  border: none;
+  padding: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+.form-group input[type=submit]:hover{
+background-color:#715f69;
+color: white;
+border: 2px solid white;
+font-size: 20px;
+}
+
+.form-group input[type=text-area]{
+  width: 400px;
+  height: 200px;
+  font-size: 16px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-align: center;
+}
+
+
+
+.contact-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name{
+  padding-bottom: 60px;
+  background-color: #b3b3b3;
+  width: 30%;
+  border-radius: 5px;
+  margin: 10px;
+  height: 350px;
+  padding: 30px;
+  bottom: 20px;
+}
+
+.name p{
+  padding: 20px ;
+
+}
+
+.name h1{
+  padding: 20px  ;
+  height: 20px;
+}
+
+
+
+
+
