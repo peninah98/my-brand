@@ -3,100 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-    <title>skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
     <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet"
+     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+     <script src="https://use.fontawesome.com/9e67d6481c.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 <body id="body">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" ><span class="penine">Penine</span> </a>
+    <span class="gap_links"></span>
+    <a href="index.html" >Home</a>
+    <a href="about.html">About</a>
+    <a href="portifolio.html">Portifolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="skills.html">Skills</a>
+    <a href="blog.html">Blog</a>
+    <a href="login.html">Login</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div id="homeabout">
+    <button style="width:auto"> <a href="index.html">Home</a> |  <a href="login.html">Login</a> </button>
+</div>
 
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" ><span class="penine">Penine</span> </a>
-        <span class="gap_links"></span>
-        <a href="index.html" >Home</a>
-        <a href="about.html">About</a>
-        <a href="portifolio.html">Portifolio</a>
-        <a href="skills.html">Skills</a>
-        <a href="blog.html">Blog</a>
-        <a href="login.html">Login</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-      <div id="homeabout">
-        <button style="width:auto"> <a href="index.html">Home</a> |  <a href="skills.html">Skills</a> </button>
-    </div>
-   <div class="inner">
-        <div class="header">
-            <h1>My skills</h1>
+<div class="container">  
+    <form id="form" action="/">
+        <h1>Registration</h1>
+        <div class="input-control">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text">
+            <div class="error"></div>
         </div>
-    <div class="sk">
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="skill-image">
-                    <img src="Assets/html-logo-png-3.png" alt="html" id="sql" class="skill-html">
-                </div>
-                <h3>HTML 5</h3>
-            </div>
-            <p> Pretty website with interactive features to the user
-            </p>
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+            <div class="error"></div>
         </div>
-
-
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="skill-image">
-                    <img src="Assets/OIP.jpg" alt="Javascript" id="sql" class="skill-html">
-                </div>
-                <h3>Javascript</h3>
-            </div>
-            <p>Adding user interface buttons more functionalities like magic</p>
+        <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password"name="password" type="password">
+            <div class="error"></div>
         </div>
-
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="skill-image">
-                    <img src="Assets/R.png" alt="" id="sql" class="skill-html">
-                </div>
-                <h3>python</h3>
-            </div>
-            <p>I did python for three year for developing user interface using Django</p>
+        <div class="input-control">
+            <label for="password2">Password again</label>
+            <input id="password2"name="password2" type="password">
+            <div class="error"></div>
         </div>
+        
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
 
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="skill-image">
-                    <img src="Assets/css.jpg" alt="" id="sql" class="skill-html">
-                </div>
-                <h3>Css</h3>
-            </div>
-            <p>Beautify websites that attract users</p>
-        </div>
 
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="skill-image">
-                    <img src="Assets/c++.jpg" alt="" id="sql" class="skill-html">
-                </div>
-                <h3>C/C++</h3>
-            </div>
-            
-            <p>c/c++ for IoT and emmbeded systems in action</p>
-        </div>
-
-        <div class="skill-box">
-            <div class="skill-title">
-                <div class="skill-image">
-                    <img src="Assets/sql.jpg" alt="" id="sql" class="skill-html">
-                </div>
-                <h3>MySQL</h3>
-            </div>
-            <p>Storing data in database,adding,deleting, <br>
-                updating and retrieving data.</p>
-        </div>
-    </div>
-
-   </div> 
-   <footer>
+<footer>
     <h1>NP</h1>
     <p>Follow me</p>
     <div class="test">
@@ -122,15 +86,15 @@
         </svg>
         
         
-        <p class="rights-text">© 2022 Created By <b>Penina Ngizwenayo</b>  All Rights Reserved.</p>
+        <p class="rights-text">Copyright © 2022 Created By <b>Penina Ngizwenayo</b>  All Rights Reserved.</p>
         
         
       </div>
 
      
   </footer>
-
   <script src="./javascript/script.js"></script>
-    
+  <script src="./javascript/form/signup.js" type="module"></script>
+
 </body>
 </html>
