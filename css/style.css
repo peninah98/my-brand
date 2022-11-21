@@ -148,9 +148,9 @@ li a:hover{
 }
 
 #about_nav{
-    height: 450px;
+    
     margin: 0px -15px;
-    background-color: #715f69;
+    background-color: black;
     color: white;
 }
 
@@ -174,9 +174,10 @@ li a:hover{
 }
 
 #about_image{
-    border: 10px solid #58B6Eb;
-    height: 500px;
+   
+    height: 800px;
     margin-top: 100px;
+
     
 }
 
@@ -187,13 +188,16 @@ li a:hover{
 
 #about-des{
     display: flex;
+    background: black;
+    color: white;
+    width: 100%;
 }
 
 #description{
-    padding: 100px;
+    
     width: 50%;
    
-    margin: 100px;
+    margin: 20px;
     padding: 20px;
 }
 
@@ -346,7 +350,7 @@ color: black;
 }
 
 #body{
-    background-color: #715f69;
+    background-color: black;
 }
 
 #loginpage p{
@@ -369,8 +373,8 @@ footer{
     width: 100%;
     bottom: 0; 
     border-top: 2px solid gray;
-    padding-top: 100px;
-    margin-top: 100px;
+    
+   
     
   }
   
